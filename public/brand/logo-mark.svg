@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none" role="img" aria-labelledby="ultfaveMarkTitle">
+  <title id="ultfaveMarkTitle">Ultfave mark: the folded U</title>
+  <!-- The Folded U: a crate-solid U with the top-right corner turned down like a sleeve corner.
+       One path, no strokes, no gradients. Inherits currentColor, so it is monochrome by default. -->
+  <path fill="currentColor" d="M6 4H22V44H42V4H46L58 16V60H6Z"/>
+</svg>

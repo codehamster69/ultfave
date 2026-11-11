@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none" role="img" aria-labelledby="ultfaveFaviconTitle">
+  <title id="ultfaveFaviconTitle">Ultfave favicon</title>
+  <!-- 64px favicon: heavier fill and less padding than the app icon so the U holds at 16px. -->
+  <rect width="64" height="64" rx="15" fill="#150A12"/>
+  <path fill="#FF5236" d="M6 4H22V44H42V4H46L58 16V60H6Z" transform="translate(7.02 7.03) scale(0.78)"/>
+</svg>

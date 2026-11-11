@@ -1,0 +1,249 @@
+{
+  "name": "Ultfave",
+  "pronunciation": "ULT-fave",
+  "domain": "ultfave.com",
+  "domainStatus": "Available at time of screening (Verisign WHOIS: No match for ULTFAVE.COM). ultfave.io, .co, .app, .fm and .net showed no NS records. Do not register until launch window.",
+  "tagline": "Everyone has an ult fave. Prove it.",
+  "descriptor": "Ultfave is a fan leaderboard for music listeners. Connect Spotify, earn points for listening minutes, distinct tracks and streaks, and climb weekly, monthly and yearly leaderboards for the artists you love.",
+  "shortDescriptor": "Fan leaderboards for Spotify listeners.",
+  "category": "Music fandom competition / listening stat tracker",
+  "audience": "Superfans 16-34 on music Twitter and TikTok, across K-pop, indie, pop and electronic. Competitive, fluent in stan language, allergic to corporate dashboards.",
+  "positioning": "For fans who measure devotion in repeat plays, Ultfave is the board that turns listening into standing. Per artist, per week, in public. It is a scoreboard written by the crowd, not an analytics product: your minutes make a rank, your streak makes a reputation, and your rivals are people you actually know.",
+  "whyItWins": [
+    "Names the fan's own vocabulary (ult fave) instead of the product's function (fan rank).",
+    "Reads as a record-label or club imprint, not a SaaS dashboard.",
+    "Works for K-pop, indie and pop without leaning on a genre or a fandom name.",
+    "Ownable: no dictionary meaning, no existing product, empty .com and empty @handle on X."
+  ],
+  "palette": {
+    "ink": "#150A12",
+    "panel": "#1E1019",
+    "panel2": "#291623",
+    "line": "#40283A",
+    "fg": "#F7EDE3",
+    "muted": "#B9A3AE",
+    "lime": "#FF5236",
+    "magenta": "#F2417C",
+    "peri": "#93A7FF",
+    "gold": "#F2B24C",
+    "aliases": {
+      "inkDeep": "#0D060C",
+      "panel3": "#33202C",
+      "lineStrong": "#6B4459",
+      "limeHover": "#FF7A5C",
+      "pageSurface": "var(--color-ink)",
+      "cardSurface": "var(--color-panel)",
+      "raisedSurface": "var(--color-panel2)",
+      "hairline": "var(--color-line)",
+      "textPrimary": "var(--color-fg)",
+      "textSecondary": "var(--color-muted)",
+      "action": "var(--color-lime)",
+      "actionHover": "#FF7A5C",
+      "focusRing": "var(--color-lime)",
+      "live": "var(--color-magenta)",
+      "rival": "var(--color-magenta)",
+      "danger": "var(--color-magenta)",
+      "bronze": "var(--color-magenta)",
+      "silver": "var(--color-peri)",
+      "coolData": "var(--color-peri)",
+      "info": "var(--color-peri)",
+      "achievement": "var(--color-gold)",
+      "rank1": "var(--color-gold)",
+      "rank2": "var(--color-peri)",
+      "rank3": "var(--color-magenta)"
+    },
+    "colorNames": {
+      "ink": "Cellar",
+      "panel": "Cellar Raised",
+      "panel2": "Cellar High",
+      "fg": "Cream Sleeve",
+      "muted": "Dust",
+      "lime": "Signal Coral",
+      "magenta": "Rival Rose",
+      "peri": "Cold Front",
+      "gold": "Brass"
+    },
+    "contrast": {
+      "fg_on_ink": "16.77:1 (AAA)",
+      "fg_on_panel": "15.90:1 (AAA)",
+      "muted_on_ink": "8.22:1 (AAA)",
+      "muted_on_panel": "7.80:1 (AAA)",
+      "lime_on_ink": "6.01:1 (AA)",
+      "ink_on_lime": "6.01:1 (AA)",
+      "magenta_on_ink": "5.37:1 (AA)",
+      "peri_on_ink": "8.50:1 (AAA)",
+      "gold_on_ink": "10.38:1 (AAA)",
+      "note": "All body copy passes WCAG 2.2 AA; fg and muted pass AAA. Never set cream on coral (2.79:1), cream on rose (3.12:1) or cream on periwinkle (1.97:1) as text. Line #40283A on panel is 1.38:1 and is decorative only; form-field borders use muted (7.80:1)."
+    },
+    "ratio": "90% ink and cream, 7% coral, 3% rose/periwinkle/brass combined. Coral is the only action colour."
+  },
+  "fonts": {
+    "display": {
+      "family": "Bricolage Grotesque",
+      "source": "Google Fonts",
+      "weights": "400-800 variable, optical size axis",
+      "fallback": "\"Archivo\", \"Helvetica Neue\", Arial, sans-serif",
+      "usage": "Headlines, hero statements, page titles, artist names. Tracking -0.03em to -0.045em, line-height 0.88-1.0."
+    },
+    "sans": {
+      "family": "Instrument Sans",
+      "source": "Google Fonts",
+      "weights": "400, 500, 600, 700",
+      "fallback": "\"Inter\", system-ui, -apple-system, \"Segoe UI\", sans-serif",
+      "usage": "Body, UI labels, buttons, table cells. No display tracking below 14px."
+    },
+    "mono": {
+      "family": "JetBrains Mono",
+      "source": "Google Fonts",
+      "weights": "400, 500, 700",
+      "fallback": "ui-monospace, SFMono-Regular, Menlo, monospace",
+      "usage": "Scores, ranks, deltas, timers, eyebrows, metadata. Tabular numerals on; uppercase labels at 0.16-0.20em tracking."
+    },
+    "scale": {
+      "displayXl": "clamp(3.25rem, 9vw, 6.5rem) / 0.88 / -0.045em",
+      "displayL": "clamp(2.5rem, 6vw, 4rem) / 0.92 / -0.035em",
+      "displayM": "2rem / 1.0 / -0.03em",
+      "displayS": "1.375rem / 1.1 / -0.02em",
+      "body": "1rem / 1.55 / -0.006em",
+      "small": "0.875rem / 1.45 / 0",
+      "label": "0.6875rem / 1.2 / 0.18em uppercase mono",
+      "numeral": "2.5rem / 1.0 tabular mono, -0.01em"
+    },
+    "nextFontSnippet": "import { Bricolage_Grotesque, Instrument_Sans, JetBrains_Mono } from \"next/font/google\"; const display = Bricolage_Grotesque({ subsets: [\"latin\"], variable: \"--font-display\", display: \"swap\" }); const sans = Instrument_Sans({ subsets: [\"latin\"], variable: \"--font-sans\", display: \"swap\" }); const mono = JetBrains_Mono({ subsets: [\"latin\"], variable: \"--font-mono\", display: \"swap\" });"
+  },
+  "logo": {
+    "mark": "logo-mark.svg",
+    "primary": "logo-primary.svg",
+    "wordmark": "logo-wordmark.svg",
+    "icon": "app-icon.svg",
+    "favicon": "favicon.svg",
+    "concept": "The Folded U. A crate-solid U whose top-right corner turns down like a folded record-sleeve corner: the mark you leave on the thing you love. The counter is open, so the letter reads at 16px; the fold survives as a 45-degree bevel.",
+    "construction": "64-unit grid, 52 x 56 shape, 16-unit strokes, 20-unit counter, 12-unit fold. Wordmark cap height 100, stem 20, tracking 8. Mark sits at 84% of cap height and on the baseline in the lockup.",
+    "clearSpace": "Half the mark width on all sides (26 units at 64). Minimum sizes: mark 16px, wordmark 120px wide, primary 160px wide.",
+    "monochrome": "logo-mark.svg and logo-wordmark.svg inherit currentColor and are single-colour by design. Primary uses fixed coral for the mark and currentColor for the wordmark: set color #F7EDE3 on ink, #150A12 on cream. Icon and favicon are ink plate plus coral. Never place the primary on coral or rose."
+  },
+  "voice": {
+    "principles": [
+      "Speak fan, not analyst. Use the words fans already use, then make them precise.",
+      "Score straight, celebrate loud. Numbers never exaggerate; reactions can.",
+      "Never punch down. Rivalry is a game between friends, not a war between fandoms.",
+      "Short lines. Hard stops. Caps for impact, not for volume.",
+      "Show the receipts. Points, privacy and rules are explained in plain language, on the page."
+    ],
+    "taglines": [
+      "Everyone has an ult fave. Prove it.",
+      "Minutes in. Rank out.",
+      "The board remembers.",
+      "For the ones you play on repeat.",
+      "Devotion, itemized."
+    ],
+    "microcopy": {
+      "ctaPrimary": "Connect Spotify",
+      "ctaSecondary": "Enter as demo fan",
+      "ctaShare": "Post the receipt",
+      "ctaFollow": "Follow",
+      "ctaFollowing": "Following",
+      "loginTrust": "We read your recent plays to score your boards. We never post, never message, never sell.",
+      "sync": "Reading your last plays. Nothing leaves your account.",
+      "emptyLeaderboard": "No one has claimed this board yet. One play puts you on it.",
+      "emptyActivity": "Quiet in here. The next overtake is yours.",
+      "emptyFriends": "No rivals yet. Follow a fan from your best artist and the board gets interesting.",
+      "emptyBadges": "No badges yet. Seven days on one artist lights the first fuse.",
+      "unranked": "You are not on this board yet. Eight minutes of {artist} gets you on it.",
+      "leaderboardYou": "This is you. It updates after every sync.",
+      "rankOne": "Top of the board. Keep it.",
+      "overtaken": "{name} just passed you. {minutes} minutes behind.",
+      "streak": "Day {n}. One more and the fuse is lit.",
+      "challengeJoined": "You are in. The clock is already running.",
+      "cardFooter": "The board remembers.",
+      "errorSync": "Spotify did not answer. Your points are safe; try the sync again."
+    }
+  },
+  "seo": {
+    "titles": {
+      "home": "Ultfave - Fan leaderboards for Spotify listeners",
+      "artist": "{Artist} fan leaderboard - weekly, monthly, yearly | Ultfave",
+      "artists": "The artists with the most devoted fans this week | Ultfave",
+      "profile": "{Name} (@{handle}) - fan rank, streaks and badges | Ultfave",
+      "activity": "Live fan activity: overtakes, badges, streaks | Ultfave",
+      "friends": "Your friends' leaderboard and rivalries | Ultfave",
+      "login": "Connect Spotify and join the board | Ultfave",
+      "challenges": "This week's fan challenges | Ultfave",
+      "card": "{Artist} fan card - {period} rank #{rank} | Ultfave",
+      "howItWorks": "How Ultfave scoring works: points, minutes and streaks | Ultfave"
+    },
+    "descriptions": {
+      "home": "Connect Spotify, earn points for listening minutes, distinct tracks and streaks, and climb weekly, monthly and yearly fan leaderboards for your favourite artists.",
+      "artist": "See who really runs the {Artist} fandom this week. Live fan rankings built from listening minutes, distinct tracks and streaks. Free, and your data stays yours.",
+      "artists": "The artist leaderboards with the most fan points this week. See which fanbases are putting in the minutes, and where your artist ranks.",
+      "profile": "{Name}'s fan profile: ranks, points, streaks, badges and rivals across {count} artists. See the receipts behind the standing.",
+      "activity": "Every overtake, badge, milestone and challenge completion across Ultfave, live. Watch the boards move in real time.",
+      "friends": "Compare listening with the fans you follow. Friends leaderboards, head-to-head rivalries and the gaps that decide them.",
+      "login": "Sign in with Spotify to join your artist leaderboards. We read recent plays only, never post, and never sell your data.",
+      "challenges": "Weekly listening challenges with bonus points and badges. Join a sprint, dig for deep cuts, or take the global grind.",
+      "card": "A shareable fan card for {Artist}: {period} rank, points and handle. Post the receipt.",
+      "howItWorks": "Points come from minutes listened, distinct tracks per day and streaks. Here is the exact formula, the caps and the privacy rules."
+    },
+    "keywords": [
+      { "cluster": "Spotify fan leaderboard", "terms": ["spotify fan leaderboard", "fan leaderboard", "spotify leaderboard artists", "most devoted fans"] },
+      { "cluster": "Artist listening ranks", "terms": ["who listens to {artist} the most", "{artist} top fans", "{artist} fan ranking", "artist listening leaderboard"] },
+      { "cluster": "Year-round Wrapped", "terms": ["spotify wrapped alternative", "spotify stats all year", "listening stats tracker", "spotify wrapped anytime"] },
+      { "cluster": "K-pop fandom competition", "terms": ["kpop fan leaderboard", "kpop streaming goals", "bias ranking app", "kpop stan stats"] },
+      { "cluster": "Listening minutes", "terms": ["listening minutes tracker", "minutes listened spotify", "track listening time", "monthly listening report"] },
+      { "cluster": "Distinct tracks / crate depth", "terms": ["distinct tracks listened", "crate depth music", "deep cuts tracker", "how many different songs"] },
+      { "cluster": "Streaks", "terms": ["listening streak", "music streak tracker", "daily listening habit", "streak leaderboard"] },
+      { "cluster": "Weekly challenges", "terms": ["weekly listening challenge", "music challenge app", "listening goals with friends", "fan challenge"] },
+      { "cluster": "Shareable fan card", "terms": ["spotify stat card", "fan card generator", "shareable listening stats", "music rank card"] },
+      { "cluster": "Friends and rivalries", "terms": ["compare music taste with friends", "listening rivalry", "friend leaderboard music", "who listens more"] },
+      { "cluster": "Badges and achievements", "terms": ["music badges", "listening achievements", "fan trophies", "night owl badge"] },
+      { "cluster": "Fan community", "terms": ["music fandom community", "stan leaderboard", "fanbase rankings", "artist fan club stats"] }
+    ],
+    "schema": {
+      "organization": {
+        "type": "Organization",
+        "fields": ["@id: https://ultfave.com/#org", "name: Ultfave", "url", "logo: /app-icon.svg (512)", "description", "sameAs: only verified profiles after launch"],
+        "note": "One node on every page, referenced by @id. No address or phone until a real entity exists."
+      },
+      "website": {
+        "type": "WebSite",
+        "fields": ["@id: https://ultfave.com/#site", "name: Ultfave", "alternateName: Ult Fave", "url", "publisher: #org", "inLanguage: en"],
+        "note": "No SearchAction until an on-site search endpoint exists. Do not fake sitelinks search."
+      },
+      "softwareApplication": {
+        "type": "SoftwareApplication",
+        "fields": ["name: Ultfave", "applicationCategory: MusicApplication", "applicationSubCategory: SocialNetworkingApplication", "operatingSystem: Web", "offers: {price: 0, priceCurrency: USD}", "featureList: artist leaderboards, streaks, badges, challenges, shareable cards", "publisher: #org"],
+        "note": "Home page only. No aggregateRating or review markup without real, displayed reviews."
+      },
+      "faq": {
+        "type": "FAQPage",
+        "fields": ["mainEntity: 6-8 questions on scoring, caps, privacy, Spotify disconnect, demo accounts, season resets"],
+        "note": "Only on /how-it-works, with the identical visible copy. Never mark up questions that are not on the page."
+      },
+      "supporting": ["BreadcrumbList on artist and profile pages", "ProfilePage + Person on /u/{handle}", "ItemList for a frozen weekly board archive, never for the live board"],
+      "rules": ["No Review/AggregateRating", "No Event markup for weekly challenges", "No hidden FAQ", "One canonical URL per board period", "JSON-LD in the document head, not injected by JS"]
+    },
+    "launchContent": [
+      "The 25 fanbases with the deepest crates this week: a data story from distinct-track counts, updated weekly.",
+      "Wrapped is once a year. This is every Monday: a recurring 'week in devotion' post with three boards and one rivalry.",
+      "How the points work, in one scrollable page with a live calculator.",
+      "Streak Club: interview three fans with 30+ day streaks on the same artist.",
+      "Deep Cuts: the least-played track that still made a top-10 fan's week.",
+      "Rivalry of the Week: two friends, one artist, a 40-point gap, a shared card.",
+      "The 8-minute cap, explained: why a 12-minute track cannot buy a rank.",
+      "Artist page launch series: one page per artist with a hand-written scene note, not scraped biography text.",
+      "Fan card gallery: opted-in cards only, with rel=canonical to the owner's profile.",
+      "A public scoring changelog so the rules are auditable."
+    ]
+  },
+  "motion": {
+    "principles": ["Numbers count, surfaces do not bounce.", "One accent motion per view.", "Overtakes get a 400ms coral wipe; everything else is 160-220ms.", "Respect prefers-reduced-motion; the board must be readable with motion off."],
+    "easing": "cubic-bezier(0.16, 1, 0.3, 1) for entrances, cubic-bezier(0.22, 0.61, 0.36, 1) for state changes",
+    "texture": "Fine grain at 3-5% over ink; a 1px printed rule between sections; no glass blur on leaderboard rows (legibility first)."
+  },
+  "files": {
+    "brandJson": "brand.json",
+    "brandGuide": "brand.md",
+    "preview": "preview.html",
+    "svg": ["logo-mark.svg", "logo-primary.svg", "logo-wordmark.svg", "app-icon.svg", "favicon.svg"]
+  }
+}

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 526 214" width="526" height="214" fill="none" role="img" aria-labelledby="ultfaveStackedTitle">
+  <title id="ultfaveStackedTitle">Ultfave stacked lockup</title>
+  <!-- Secondary vertical lockup for avatars, cards and merchandise.
+       Mark is opt-in coral; wordmark inherits currentColor. -->
+  <path fill="#FF5236" d="M0 0H24V60H54V0H60L78 18V84H0Z" transform="translate(224 0)"/>
+  <g fill="currentColor">
+    <path d="M0 0H20V80H58V0H78V100H0Z" transform="translate(0 114)"/>
+    <path d="M0 0H20V80H58V100H0Z" transform="translate(86 114)"/>
+    <path d="M0 0H70V20H45V100H25V20H0Z" transform="translate(152 114)"/>
+    <path d="M0 0H58V20H20V43H52V63H20V100H0Z" transform="translate(230 114)"/>
+    <path fill-rule="evenodd" d="M24 0H56L80 100H59L51 70H29L21 100H0ZM40 20L47 52H33Z" transform="translate(296 114)"/>
+    <path d="M0 0H21L38 80L55 0H76L47 100H29Z" transform="translate(384 114)"/>
+    <path d="M0 0H58V20H20V42H52V62H20V80H58V100H0Z" transform="translate(468 114)"/>
+  </g>
+</svg>

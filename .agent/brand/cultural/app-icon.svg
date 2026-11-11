@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" fill="none" role="img" aria-labelledby="ultfaveIconTitle">
+  <title id="ultfaveIconTitle">Ultfave app icon</title>
+  <!-- 512 app icon. Ink plate with the coral Folded U. Content box 297 x 320,
+       giving 96px of clear space on every side (iOS/Android safe area). -->
+  <rect width="512" height="512" rx="116" fill="#150A12"/>
+  <path fill="#FF5236" d="M6 4H22V44H42V4H46L58 16V60H6Z" transform="translate(73.2 73.1) scale(5.714286)"/>
+</svg>

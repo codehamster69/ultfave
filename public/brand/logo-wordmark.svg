@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 538 112" width="538" height="112" fill="none" role="img" aria-labelledby="ultfaveWordmarkTitle">
+  <title id="ultfaveWordmarkTitle">Ultfave wordmark</title>
+  <!-- Hand-drawn geometric letterforms. Cap height 100, stem 20, tracking 8 (1.5% of width).
+       Flat apex on A, flat vertex on V, single-storey U with a flat foot. All paths, no font. -->
+  <g fill="currentColor">
+    <path d="M0 0H20V80H58V0H78V100H0Z"/>
+    <path d="M0 0H20V80H58V100H0Z" transform="translate(86 0)"/>
+    <path d="M0 0H70V20H45V100H25V20H0Z" transform="translate(152 0)"/>
+    <path d="M0 0H58V20H20V43H52V63H20V100H0Z" transform="translate(230 0)"/>
+    <path fill-rule="evenodd" d="M24 0H56L80 100H59L51 70H29L21 100H0ZM40 20L47 52H33Z" transform="translate(296 0)"/>
+    <path d="M0 0H21L38 80L55 0H76L47 100H29Z" transform="translate(384 0)"/>
+    <path d="M0 0H58V20H20V42H52V62H20V80H58V100H0Z" transform="translate(468 0)"/>
+  </g>
+</svg>
