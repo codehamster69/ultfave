@@ -154,3 +154,4 @@ scripts/seed.mjs                 deterministic fictional demo universe
 - The activity feed **polls** every 20 seconds (pauses on hidden tabs). There are no websockets.
 - Ranks are recomputed on request, not streamed; cached cards can trail live data by up to 5 minutes.
 - Dark mode only. No email/password accounts; identity is a Spotify account or the demo fan.
+Updated README for PR
