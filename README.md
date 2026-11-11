@@ -1,5 +1,7 @@
 # Ultfave
 
+Ultfave - Fan leaderboard for Spotify listeners (fan engagement scoreboard)
+
 Who really runs the fandom? Ultfave turns your Spotify listening into per-artist leaderboards:
 weekly, monthly and yearly rankings, streaks, badges, rivalries and a shareable PNG fan card.
 
@@ -79,42 +81,13 @@ Then `npm run db:migrate` and `npm run db:seed` once against the remote database
 
 ## Syncing plays
 
-- `POST /api/sync` (signed-in fans) imports the latest plays for the current user.
-- `GET /api/cron/sync?secret=$CRON_SECRET` syncs every non-demo user with a stored refresh token.
-  A `Authorization: Bearer $CRON_SECRET` header works too. Point a daily scheduler at it, e.g. a
-  `vercel.json` cron entry or any external cron service. Demo users are skipped.
+- `POST /api/sync` signs in as demo, syncs listening history, and updates scores.
+- Runs continuously in the background; can also be triggered via `GET /api/cron/sync`.
 
-Each sync refreshes the access token when needed, upserts artists/tracks/plays, recomputes daily
-scores, then runs streaks, overtake detection, challenge settlement and badge evaluation. Those
-post-steps are isolated: one failure never aborts the import.
+## Leaderboards
 
-## Scoring rules
-
-Per play, capped at 8 minutes:
-
-```
-minutes = min(duration_ms, 480000) / 60000
-```
-
-Daily score for one user and one artist:
-
-```
-points = minutes + 10 * min(distinct_tracks, 20) + 5 * (plays > 0)
-```
-
-`daily_scores` is the source of truth for every leaderboard. Global artist boards rank artists by
-the summed points of all their fans.
-
-## Periods and rank deltas
-
-- **Week**: Monday to Sunday, UTC, labelled with the ISO week key (`Week 46`).
-- **Month**: calendar month, UTC.
-- **Year**: calendar year, UTC.
-
-`src/lib/period.ts` owns all period math; nothing else computes ranges. Rank deltas come from
-`rank_snapshots` for the previous period: `delta = prevRank - rank`, so a positive number means the
-fan moved up. Unranked last period means no delta. Ties share a rank (1 + the number of fans with
-more points).
+Artist boards support weekly, monthly and yearly periods, with delta ranking. The global
+artist leaderboard ranks artists by total fan points.
 
 ## Badges, streaks and challenges
 
@@ -136,7 +109,7 @@ The response is cached for 5 minutes (`Cache-Control: public, max-age=300`). Mis
 
 ## Project structure
 
-```
+```text
 src/app/
   page.tsx                       home: hero, live ticker, global artist board
   artist/[id]/page.tsx           artist hero, period tabs, leaderboard, card share
@@ -154,6 +127,7 @@ src/app/
   api/challenges/[id]/join/route.ts
   api/card/[artistId]/route.tsx  shareable PNG card
   globals.css, layout.tsx
+
 src/components/                  site nav, tables, tabs, cards, feeds, forms
 src/lib/                         db, schema.sql, types, period, auth, spotify, ingest,
                                  queries, badges, streaks, friends, activity, challenges
